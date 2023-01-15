@@ -1,0 +1,70 @@
+.section-visit__wrapper {
+    background-color: #261d17;
+    /*rgba(255, 255, 255, 0);*/
+}
+.section-visit__container {
+    max-width: 896px;
+    text-align: left;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.section-visit__title {
+    font-size: 58px;
+    color: #FFF;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    max-width: 260px;
+    padding-bottom: 60px;    
+}
+.section-visit__separator {
+    font-size: 14px;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    color: #F8B803;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+.section-visit__spikelet-separator {
+    padding-bottom: 30px;
+}
+.section-visit__subtitle {
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    max-width: 277px;
+    padding-bottom: 40px;
+}
+.section-visit__button1 {
+    width: 175px;
+    height: 45px;
+    background-color: green;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+.section-visit__button2 {
+    width: 187px;
+    height: 50px;
+    background-color: darkgreen;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 55px;
+    margin-bottom: 200px;
+}
+.section-visit__picture {
+    width: auto;
+    height: 842px;  
+    position: relative;  
+}
