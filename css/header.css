@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     gap: 60px;
+    list-style: none;
 }
 .header__subtitle {
     color: firebrick;    

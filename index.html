@@ -142,45 +142,58 @@
                 <p class="main__title" id="future">
                   Future
                 </p>
-            <img width="100%" src="img/future.jpg" alt="Future">
-        <div>
-            <label for="say">Say something</label>
-            <input type="text" placeholder="Feedback">
+            <img class="main__picture" width="100%" src="img/future.jpg" alt="Future">
+        <div class="main__question_feedback">
+            <label for="say">Say something:</label>
+            <input class="main__question_input" type="text" placeholder="Feedback">
         </div>
-        <h1>Who are you?</h1>
+        <div>
+        <h2 class="main__question">Who are you?</h2>
         <label for="male">Male</label>
         <input type="checkbox">
-        <label for="female">Female</label>
+        <label class="main__female" for="female">Female</label>
         <input type="checkbox">
-        <h2>Do you want to share with us?</h2>
-        <div><a href="">Share</a></div>
-        <h2>Are you with us?</h2>
-        <div>
-            <button>YES</button>
         </div>
         <div>
-            <button>NO</button>
+        <h2 class="main__question">Do you want to share with us?</h2>
+        <div>
+            <a href="#">Share</a>
+            <a href="#">Again</a>
+            <a href="#">and Again</a>
+        </div>
         </div>
         <div>
-            <button>Maybe</button>
+        <h2 class="main__question">Are you with us?</h2>
+        <div class="main__buttons">
+        <div class="main__buttons_one">
+            YES
         </div>
-        <p>
-        <h4>It's nothing left to say...</h4>
-        <h4>With us you are always safe</h4>
-        </p>
+        <div class="main__buttons_two">
+            MAYBE
+        </div>
+        <div class="main__buttons_three">
+            NO
+        </div>
+        </div>
+        </div>
+        </div>
     </main>
-    <footer>
-        <table class="contacts__tablet">
-            <tr>
-                <th>Address:</th>
-                <td>Cyprus</td>
-            </tr>
-            <tr>
-                <th>Contacts</th>
-                <td><a class="contacts__tablet_info" href="tel:+0(000)0000000">+0 (000) 000 00 00</a>
-            </td>
-            </tr>
-        </table>
+    <footer class="footer">
+        <div class="footer__container">
+        <h2 class="footer__title">Contact Us:</h2>
+        <div class="footer__flex">
+        <p>
+        Address: Cyprus
+        </p>
+        <p>
+        Contacts: tel:+0(000)0000000
+        </p>
+    </div>
+    </div>
+    <div class="footer__end">
+        <h4>It's nothing left to say...</h4>
+        <h4>With us you are always safe!</h4>
+    </div>
     </footer>
 </body>
 
