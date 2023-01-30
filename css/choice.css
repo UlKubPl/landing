@@ -64,11 +64,23 @@
     font-size: 17px;
     font-family: 'Rubik', sans-serif;
 }
+.accordion-item {
+    color: var(--text-color_choice);
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+}
 .section-choice__question {
     font-weight: bold;
     padding: 10px 0 10px 0;
 }
+.accordion-header {
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+}
 .section-choice__answer {
+    padding-bottom: 10px;
+}
+.accordion-body {
     padding-bottom: 10px;
 }
 .section-choice__hr {
