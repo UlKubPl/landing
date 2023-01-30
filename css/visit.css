@@ -1,6 +1,7 @@
 .section-visit__wrapper {
     width: 100%;
-    background: var(--background-color_dark); 
+    background-color: var(--background-color_dark); 
+    background-image: url(../img/beer_and_leaves.png);
     background-attachment: fixed;
     background-size: cover;
     /*rgba(255, 255, 255, 0);*/

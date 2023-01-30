@@ -64,6 +64,10 @@
     font-size: 17px;
     font-family: 'Rubik', sans-serif;
 }
+.accordion {
+    --bs-accordion-bg: #f4eee1;
+    --bs-accordion-border-color: none;
+}
 .accordion-item {
     color: var(--text-color_choice);
     font-size: 17px;
