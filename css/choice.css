@@ -1,5 +1,5 @@
 .section-choice {
-    background-color: var(--background-color_choice); 
+    background-image: url(../img/choice_bg.png); 
 }
 .section-choice__container {
     max-width: 430px;
@@ -92,4 +92,18 @@
 }
 .section-choice__hr:last-child {
     margin-bottom: 40px;
+}
+.accordion-button:not(.collapsed)::after {
+background-image: url(../img/minus-svgrepo-com.svg);
+}
+.accordion-button.collapsed::after {
+    background-image: url(../img/add-plus-svgrepo-com.svg);
+}
+.accordion-button:not(.collapsed) {
+    color: none;
+    background-color: none;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: none;
+    border-top-right-radius: none;
 }
