@@ -187,3 +187,7 @@
   }
 /* <p class="modal__descruption">Статья с уроком - <a href="/kak-sdelat-modalnoe-okno-na-sajte.html">тут</a>.</p>
   */
+a {
+    text-decoration: none;
+    color: #fff;
+}
